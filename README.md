@@ -1,12 +1,12 @@
-\# Diabetes Prediction Using Health Indicators
+Diabetes Prediction Using Health Indicators
 
 
 
-\## Overview
+## Overview
 
 
 
-This project focuses on predicting whether an individual has diabetes using health and lifestyle indicators. The analysis is based on the \*\*Diabetes Health Indicators Dataset\*\* from Kaggle, derived from the CDC BRFSS 2021 survey. The task is formulated as a \*\*binary classification problem\*\* using multiple machine learning models .
+This project focuses on predicting whether an individual has diabetes using health and lifestyle indicators. The analysis is based on the **Diabetes Health Indicators Dataset** from Kaggle, derived from the CDC BRFSS 2021 survey. The task is formulated as a **binary classification problem** using multiple machine learning models .
 
 
 
@@ -14,7 +14,7 @@ This project focuses on predicting whether an individual has diabetes using heal
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -22,27 +22,27 @@ The project uses three datasets from Kaggle:
 
 
 
-\* \*\*diabetes\_012\_health\_indicators.csv\*\*
+* **diabetes_012_health_indicators.csv**
 
 
 
-&nbsp; \* Multi-class: No diabetes, Prediabetes, Diabetes
+&nbsp; * Multi-class: No diabetes, Prediabetes, Diabetes
 
-\* \*\*diabetes\_binary\_5050split\_health\_indicators.csv\*\*
-
-
-
-&nbsp; \* Binary and balanced dataset
-
-\* \*\*diabetes\_binary\_health\_indicators.csv\*\*
+* **diabetes_binary_5050split_health_indicators.csv**
 
 
 
-&nbsp; \* Binary and imbalanced dataset
+&nbsp; * Binary and balanced dataset
+
+* **diabetes_binary_health_indicators.csv**
 
 
 
-A \*\*merged dataset\*\* was created by combining all three datasets and converting the multi-class labels into a single binary label (diabetes vs no diabetes), resulting in \*\*539,892 records\*\* .
+&nbsp; * Binary and imbalanced dataset
+
+
+
+A **merged dataset** was created by combining all three datasets and converting the multi-class labels into a single binary label (diabetes vs no diabetes), resulting in **539,892 records** .
 
 
 
@@ -50,7 +50,7 @@ A \*\*merged dataset\*\* was created by combining all three datasets and convert
 
 
 
-\## Features
+## Features
 
 
 
@@ -58,51 +58,15 @@ The datasets include health and demographic indicators such as:
 
 
 
-\* Blood pressure, cholesterol, BMI
+* Blood pressure, cholesterol, BMI
 
-\* Smoking and alcohol consumption
+* Smoking and alcohol consumption
 
-\* Physical activity, diet (fruits/vegetables)
+* Physical activity, diet (fruits/vegetables)
 
-\* General, mental, and physical health
+* General, mental, and physical health
 
-\* Age, sex, education, and income
-
-
-
----
-
-
-
-\## Methodology
-
-
-
-\* Data preprocessing and validation (no missing values)
-
-\* Feature scaling using \*\*StandardScaler\*\*
-
-\* Data split:
-
-
-
-&nbsp; \* 70% Training
-
-&nbsp; \* 10% Validation
-
-&nbsp; \* 20% Testing
-
-\* Performance metrics:
-
-
-
-&nbsp; \* Accuracy
-
-&nbsp; \* Precision
-
-&nbsp; \* Recall
-
-&nbsp; \* F1 Score 
+* Age, sex, education, and income
 
 
 
@@ -110,7 +74,43 @@ The datasets include health and demographic indicators such as:
 
 
 
-\## Models Used
+## Methodology
+
+
+
+* Data preprocessing and validation (no missing values)
+
+* Feature scaling using **StandardScaler**
+
+* Data split:
+
+
+
+&nbsp; * 70% Training
+
+&nbsp; * 10% Validation
+
+&nbsp; * 20% Testing
+
+* Performance metrics:
+
+
+
+&nbsp; * Accuracy
+
+&nbsp; * Precision
+
+&nbsp; * Recall
+
+&nbsp; * F1 Score 
+
+
+
+---
+
+
+
+## Models Used
 
 
 
@@ -118,15 +118,15 @@ The following machine learning models were implemented and evaluated:
 
 
 
-\* Logistic Regression
+* Logistic Regression
 
-\* K-Nearest Neighbors (KNN)
+* K-Nearest Neighbors (KNN)
 
-\* Bagged Decision Tree
+* Bagged Decision Tree
 
-\* Random Forest
+* Random Forest
 
-\* XGBoost Classifier
+* XGBoost Classifier
 
 
 
@@ -134,7 +134,7 @@ The following machine learning models were implemented and evaluated:
 
 
 
-\## Results (Merged Dataset)
+## Results (Merged Dataset)
 
 
 
@@ -146,9 +146,9 @@ The following machine learning models were implemented and evaluated:
 
 | KNN                  | 0.82     | 0.81      | 0.82     | 0.81     |
 
-| Bagged Decision Tree | \*\*0.95\*\* | \*\*0.95\*\*  | \*\*0.95\*\* | \*\*0.95\*\* |
+| Bagged Decision Tree | **0.95** | **0.95**  | **0.95** | **0.95** |
 
-| Random Forest        | \*\*0.95\*\* | \*\*0.95\*\*  | \*\*0.95\*\* | \*\*0.95\*\* |
+| Random Forest        | **0.95** | **0.95**  | **0.95** | **0.95** |
 
 | XGBoost              | 0.84     | 0.82      | 0.84     | 0.81     |
 
@@ -162,7 +162,7 @@ Bagged Decision Tree and Random Forest achieved the best overall performance on 
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
@@ -174,15 +174,15 @@ This project demonstrates the effectiveness of machine learning for early diabet
 
 
 
-\## Future Work
+## Future Work
 
 
 
-\* Advanced feature engineering
+* Advanced feature engineering
 
-\* Further hyperparameter optimization
+* Further hyperparameter optimization
 
-\* Integration into real-world healthcare decision systems
+* Integration into real-world healthcare decision systems
 
 
 
@@ -190,13 +190,13 @@ This project demonstrates the effectiveness of machine learning for early diabet
 
 
 
-\## References
+## References
 
 
 
-\* CDC BRFSS Survey 2021 (Kaggle)
+* CDC BRFSS Survey 2021 (Kaggle)
 
-\* Diabetes Health Indicators Dataset (Kaggle) 
+* Diabetes Health Indicators Dataset (Kaggle) 
 
 
 
@@ -208,13 +208,13 @@ When you’re ready, I can:
 
 
 
-\* Tighten this further for \*\*recruiters\*\*
+* Tighten this further for **recruiters**
 
-\* Add a \*\*project structure section\*\*
+* Add a **project structure section**
 
-\* Convert it into a \*\*portfolio-grade README\*\*
+* Convert it into a **portfolio-grade README**
 
-\* Align it with \*\*ML / Data Scientist job keywords\*\*
+* Align it with **ML / Data Scientist job keywords**
 
 
 
