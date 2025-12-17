@@ -1,4 +1,5 @@
-#Diabetes Prediction Using Health Indicators
+# Diabetes Prediction Using Health Indicators
+
 This project focuses on predicting whether an individual has diabetes using health and lifestyle indicators. The analysis is based on the **Diabetes Health Indicators Dataset** from Kaggle, derived from the CDC BRFSS 2021 survey. The task is formulated as a **binary classification problem** using multiple machine learning models .
 
 
@@ -134,13 +135,9 @@ The following machine learning models were implemented and evaluated:
 | Model                | Accuracy | Precision | Recall   | F1 Score |
 | -------------------- | -------- | --------- | -------- | -------- |
 | Logistic Regression  | 0.82     | 0.79      | 0.82     | 0.79     |
-
 | KNN                  | 0.82     | 0.81      | 0.82     | 0.81     |
-
 | Bagged Decision Tree | **0.95** | **0.95**  | **0.95** | **0.95** |
-
 | Random Forest        | **0.95** | **0.95**  | **0.95** | **0.95** |
-
 | XGBoost              | 0.84     | 0.82      | 0.84     | 0.81     |
 
 
