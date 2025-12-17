@@ -1,11 +1,4 @@
-Diabetes Prediction Using Health Indicators
-
-
-
-## Overview
-
-
-
+#Diabetes Prediction Using Health Indicators
 This project focuses on predicting whether an individual has diabetes using health and lifestyle indicators. The analysis is based on the **Diabetes Health Indicators Dataset** from Kaggle, derived from the CDC BRFSS 2021 survey. The task is formulated as a **binary classification problem** using multiple machine learning models .
 
 
@@ -139,9 +132,7 @@ The following machine learning models were implemented and evaluated:
 
 
 | Model                | Accuracy | Precision | Recall   | F1 Score |
-
 | -------------------- | -------- | --------- | -------- | -------- |
-
 | Logistic Regression  | 0.82     | 0.79      | 0.82     | 0.79     |
 
 | KNN                  | 0.82     | 0.81      | 0.82     | 0.81     |
@@ -151,7 +142,6 @@ The following machine learning models were implemented and evaluated:
 | Random Forest        | **0.95** | **0.95**  | **0.95** | **0.95** |
 
 | XGBoost              | 0.84     | 0.82      | 0.84     | 0.81     |
-
 
 
 Bagged Decision Tree and Random Forest achieved the best overall performance on the merged dataset .
@@ -164,57 +154,13 @@ Bagged Decision Tree and Random Forest achieved the best overall performance on 
 
 ## Conclusion
 
-
-
 This project demonstrates the effectiveness of machine learning for early diabetes detection using health indicators. Ensemble models performed especially well on larger, merged datasets. The results highlight the potential of ML-based decision support systems in healthcare applications .
 
-
-
 ---
-
-
-
-## Future Work
-
-
-
-* Advanced feature engineering
-
-* Further hyperparameter optimization
-
-* Integration into real-world healthcare decision systems
-
-
-
----
-
-
 
 ## References
-
-
-
-* CDC BRFSS Survey 2021 (Kaggle)
-
-* Diabetes Health Indicators Dataset (Kaggle) 
-
-
+* Diabetes Health Indicators Dataset (Kaggle): https://www.kaggle.com/datasets/julnazz/diabetes-health-indicators-dataset
 
 ---
-
-
-
-When you’re ready, I can:
-
-
-
-* Tighten this further for **recruiters**
-
-* Add a **project structure section**
-
-* Convert it into a **portfolio-grade README**
-
-* Align it with **ML / Data Scientist job keywords**
-
 
 
