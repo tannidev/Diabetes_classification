@@ -4,7 +4,10 @@ This project focuses on predicting whether an individual has diabetes using heal
 
 
 
+
+
 ---
+
 
 
 
@@ -16,23 +19,15 @@ The project uses three datasets from Kaggle:
 
 
 
-* **diabetes_012_health_indicators.csv**
+- **diabetes_012_health_indicators.csv**
+  - Multi-class: No diabetes, Prediabetes, Diabetes
 
+- **diabetes_binary_5050split_health_indicators.csv**
+  - Binary and balanced dataset
 
+- **diabetes_binary_health_indicators.csv**
+  - Binary and imbalanced dataset
 
-&nbsp; * Multi-class: No diabetes, Prediabetes, Diabetes
-
-* **diabetes_binary_5050split_health_indicators.csv**
-
-
-
-&nbsp; * Binary and balanced dataset
-
-* **diabetes_binary_health_indicators.csv**
-
-
-
-&nbsp; * Binary and imbalanced dataset
 
 
 
@@ -52,15 +47,15 @@ The datasets include health and demographic indicators such as:
 
 
 
-* Blood pressure, cholesterol, BMI
+- Blood pressure, cholesterol, BMI
 
-* Smoking and alcohol consumption
+- Smoking and alcohol consumption
 
-* Physical activity, diet (fruits/vegetables)
+- Physical activity, diet (fruits/vegetables)
 
-* General, mental, and physical health
+- General, mental, and physical health
 
-* Age, sex, education, and income
+- Age, sex, education, and income
 
 
 
@@ -71,32 +66,21 @@ The datasets include health and demographic indicators such as:
 ## Methodology
 
 
+- Data preprocessing and validation (no missing values)
+  
+- Feature scaling using **StandardScaler**
+- Data split:
+  - 70% Training
+  - 10% Validation
+  - 20% Testing
+ 
+    
+- Performance metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1 Score
 
-* Data preprocessing and validation (no missing values)
-
-* Feature scaling using **StandardScaler**
-
-* Data split:
-
-
-
-&nbsp; * 70% Training
-
-&nbsp; * 10% Validation
-
-&nbsp; * 20% Testing
-
-* Performance metrics:
-
-
-
-&nbsp; * Accuracy
-
-&nbsp; * Precision
-
-&nbsp; * Recall
-
-&nbsp; * F1 Score 
 
 
 
@@ -111,16 +95,15 @@ The datasets include health and demographic indicators such as:
 The following machine learning models were implemented and evaluated:
 
 
+- Logistic Regression
 
-* Logistic Regression
+- K-Nearest Neighbors (KNN)
 
-* K-Nearest Neighbors (KNN)
+- Decision Tree
 
-* Bagged Decision Tree
+- Random Forest
 
-* Random Forest
-
-* XGBoost Classifier
+- XGBoost 
 
 
 
@@ -128,7 +111,7 @@ The following machine learning models were implemented and evaluated:
 
 
 
-## Results (Merged Dataset)
+## Results
 
 
 
@@ -145,13 +128,18 @@ Bagged Decision Tree and Random Forest achieved the best overall performance on 
 
 
 
+
 ---
+
+
 
 
 
 ## Conclusion
 
 This project demonstrates the effectiveness of machine learning for early diabetes detection using health indicators. Ensemble models performed especially well on larger, merged datasets. The results highlight the potential of ML-based decision support systems in healthcare applications .
+
+
 
 ---
 
